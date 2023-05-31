@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Khojki:wght@400;500&family=Poppins:wght@400;700&display=swap');
+
+body{
+    font-family: 'Noto Serif Khojki', serif;
+    font-family: 'Poppins', sans-serif;
+    color: #535353;
+}
+
+.posts{
+    width: 1024px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+.post{
+    transition: all ease 0.5s;
+}
+.post img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.post:hover{
+    transform: scale(1.05);
+}
